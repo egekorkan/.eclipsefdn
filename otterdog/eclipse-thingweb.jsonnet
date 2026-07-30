@@ -430,7 +430,8 @@ orgs.newOrg('iot.thingweb', 'eclipse-thingweb') {
         },
       ],
     },
-    orgs.newRepo('wot-py') {
+    orgs.newRepo('wotpy') {
+      aliases: ['wot-py'],
       allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "develop",
